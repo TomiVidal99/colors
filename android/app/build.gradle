@@ -154,9 +154,9 @@ android {
          release {
             /* if (project.hasProperty('production_key_1')) { */
                 storeFile file("production_key_1.keystore")
-                storePassword "42343602tomi"
+                storePassword "prodPass"
                 keyAlias "production_key_1"
-                keyPassword "42343602tomi"
+                keyPassword "prodPass"
             /* } */
         }
         /* END */
