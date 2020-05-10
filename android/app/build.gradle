@@ -153,10 +153,10 @@ android {
         /* FOR DEPLOYING */
          release {
             /* if (project.hasProperty('production_key_1')) { */
-                storeFile file("production_key_1.keystore")
-                storePassword "prodPass"
-                keyAlias "production_key_1"
-                keyPassword "prodPass"
+                storeFile file("my-upload-key.keystore")
+                storePassword "42343602tomi"
+                keyAlias "my-key-alias"
+                keyPassword "42343602tomi"
             /* } */
         }
         /* END */
